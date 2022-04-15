@@ -27,4 +27,4 @@ export CCACHE_EXEC=$(which ccache)
 export CCACHE_DIR=/ccache
 ccache -M 100G -F 0
 make bacon -j20 
-ls out/target/product/ginkgo
+ls out/target/product/ginkgo/awaken
